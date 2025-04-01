@@ -1,0 +1,82 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s;
+}
+.dark-mode .container {
+  background: #1e1e1e;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #218838;
+}
+.results {
+  margin-top: 20px;
+}
+.meal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  transition: background 0.3s;
+}
+.dark-mode .meal {
+  background: #2a2a2a;
+  border-color: #444;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+.dark-mode-toggle {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  font-size: 24px;
+  cursor: pointer;
+  background: #218838;
+  border: none;
+  color: #000;
+  transition: color 0.3s;
+}
+.dark-mode-toggle:hover {
+  background: #1e7e34;
+}
+.dark-mode .dark-mode-toggle {
+  color: #fff;
+}

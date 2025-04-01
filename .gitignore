@@ -134,3 +134,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore API key file
+.env
+config.js
+
+# Ignore Node modules (if using Node.js)
+node_modules/
+
+# Ignore environment files (optional)
+*.env
