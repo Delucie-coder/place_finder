@@ -3,7 +3,7 @@ Food Finder
 A web application that helps users discover food options based on their search queries. The app provides a simple and accessible interface to search for different types of food with a clean UI, dark mode toggle, and search functionality.
 
 📹 Demo Video
-Watch the Food Finder Demo on YouTube (Link to be added)
+Watch the Food Finder Demo on YouTube (https://youtu.be/q5jYJZKyaCY)
 
  🔗 Live Site
 Live Website (https://www.delucie.tech/)
